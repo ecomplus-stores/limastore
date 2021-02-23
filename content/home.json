@@ -1,29 +1,47 @@
 {
-  "meta_title": "",
-  "meta_description": "",
+  "meta_title": "LIma Store | Especializada em Vendas de Pulseiras Masculinas",
+  "meta_description": "A Lima Store é uma loja virtual especializada na venda de acessórios, especialmente pulseiras para o público masculino. Entre e confira",
   "sections": [
     {
       "type": "banner-slider",
       "autoplay": 9000,
       "slides": [
         {
-          "img": "/img/uploads/rect89.webp",
-          "link": "/headset",
-          "alt": "Headset banner",
-          "start": "2020-04-11T05:54:06.750Z",
-          "end": "2020-12-31T03:00:00.000Z"
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/pulseira-masculina-aco-inoxidavel-banhadas-a-ouro.jpg",
+          "link": "/acessorios-masculinos/",
+          "alt": "acessórios masculinos"
         },
         {
-          "img": "/img/uploads/banner2.webp",
-          "alt": "Banner sample two",
           "start": "",
-          "end": ""
+          "end": "",
+          "img": "/img/uploads/banner_01_couro_2.jpg",
+          "link": "/pulseiras-de-couro-masculinas/",
+          "alt": "pulseiras de couro masculinas"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner-pulseiras-magneticas-1.jpg",
+          "link": "/pulseiras-magneticas/",
+          "alt": "pulseiras magneticas"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_colares_couro_01.jpg",
+          "link": "/colares-masculinos/",
+          "alt": "colares masculinos"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/banner_colares_casal.jpg",
+          "link": "/acessorios-casais/",
+          "alt": "acessorios casais"
         }
       ]
-    },
-    {
-      "type": "info-bar",
-      "enabled": true
     },
     {
       "type": "collection-shelf",
@@ -36,6 +54,10 @@
       "type": "page-title",
       "title": "Loja demo da E-Com Plus",
       "description": "Loja de demonstração e testes da plataforma E-Com Plus e Storefront. Todos os produtos, preços e informações são meramente ilustrativos."
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/tarja-1.jpg"
     }
   ]
 }
