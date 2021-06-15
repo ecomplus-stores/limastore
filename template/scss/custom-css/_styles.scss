@@ -1,1 +1,21 @@
 // Add your custom CSS here.
+@media(min-width: 768px) {
+    .banner-slider {
+        max-width: 100%;
+        --banner-aspect-ratio: 1!important;
+        height: auto;
+    }
+}
+#banner-primario .banner:first-child {
+    margin-bottom: 10px;
+}
+@media (min-width: 992px) {
+    #banner-primario {
+        max-width: 71.29%;
+        flex-basis: 71.29%;
+    }
+    #banner-secundario {
+        max-width: 28.71%;
+        flex-basis: 28.71%;
+    }
+}

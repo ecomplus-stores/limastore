@@ -10,6 +10,7 @@
           "start": "",
           "end": "",
           "img": "/img/uploads/pulseira-masculina-aco-inoxidavel-banhadas-a-ouro.jpg",
+          "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/Pulseira-Masculina-Aco-inoxidavel-Banhadas-a-Ouro-mobile.jpg",
           "link": "/acessorios-masculinos/",
           "alt": "acessórios masculinos"
         },
@@ -18,34 +19,63 @@
           "end": "",
           "img": "/img/uploads/banner_01_couro_2.jpg",
           "link": "/pulseiras-de-couro-masculinas/",
-          "alt": "pulseiras de couro masculinas"
+          "alt": "pulseiras de couro masculinas",
+          "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-full3-mobile.jpg"
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-pulseiras-magneticas-1.jpg",
           "link": "/pulseiras-magneticas/",
-          "alt": "pulseiras magneticas"
+          "alt": "pulseiras magneticas",
+          "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-full4-mobile.jpg"
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner_colares_couro_01.jpg",
           "link": "/colares-masculinos/",
-          "alt": "colares masculinos"
+          "alt": "colares masculinos",
+          "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-full5-mobile.jpg"
         },
         {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner_colares_casal.jpg",
           "link": "/acessorios-casais/",
-          "alt": "acessorios casais"
+          "alt": "acessorios casais",
+          "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bne-mobile-pulsieras-magneticas.jpg"
         }
       ]
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/tarja-1.jpg"
+      "img": "/img/uploads/tarja-1.jpg",
+      "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/tarja-mobile.jpg"
+    },
+    {
+      "type": "responsive-banner",
+      "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bne-tarja-pulseiras-magneticas.jpg"
+    },
+    {
+      "type": "banners-triple",
+      "banners": [
+        {
+          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/pulseirasclean.jpg",
+          "alt": "",
+          "link": ""
+        },
+        {
+          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/colaresclean.jpg",
+          "alt": "",
+          "link": ""
+        },
+        {
+          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/femininoclean.jpg",
+          "alt": "",
+          "link": ""
+        }
+      ]
     },
     {
       "type": "collection-shelf",
