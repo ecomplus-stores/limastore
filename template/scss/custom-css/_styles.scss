@@ -7,15 +7,26 @@
     }
 }
 #banner-primario .banner:first-child {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 @media (min-width: 992px) {
     #banner-primario {
         max-width: 71.29%;
         flex-basis: 71.29%;
+        padding-right: 5px;
     }
-    #banner-secundario {
+}
+#banner-secundario {
+    @media (min-width: 992px) {
         max-width: 28.71%;
         flex-basis: 28.71%;
     }
+    @media (max-width: 767px) {
+        .banner {
+            max-width: 100%;
+            width: 100%;
+            padding-top: 20px;
+        }
+    }
+
 }
