@@ -54,8 +54,12 @@
       "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/tarja-mobile.jpg"
     },
     {
-      "type": "responsive-banner",
-      "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bne-tarja-pulseiras-magneticas.jpg"
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bne-tarja-pulseiras-magneticas.jpg"
+        }
+      ]
     },
     {
       "type": "banners-triple",
