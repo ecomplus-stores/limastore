@@ -1,9 +1,26 @@
 // Add your custom CSS here.
+body {
+    background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/fundo.jpg);
+    background-position: top center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+.top-bar, .header {
+    background: none;
+}
 @media(min-width: 768px) {
     .banner-slider {
         max-width: 100%;
         --banner-aspect-ratio: 1!important;
         height: auto;
+    }
+    .header__logo {
+        max-height: 105px;
+    }
+}
+@media(max-width: 767px) {
+    .orders {
+        display: none !important;
     }
 }
 #banner-primario .banner:first-child {
@@ -14,6 +31,49 @@
         max-width: 71.29%;
         flex-basis: 71.29%;
         padding-right: 5px;
+    }
+    .top-bar {
+        display: block!important;
+        position: relative;
+        height: 60px!important;
+        max-width: 1170px!important;
+        padding-top: 13px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    
+    .horario{
+        float:right;
+        color:#fff;
+        font-weight:700;
+        margin-top:-8px
+    }
+    .informacoes ul li img{
+        margin-right:5px
+    }
+    .header{
+        height:200px;
+    }
+    .search-input-but {
+        font-size:0;
+        height:57px;
+        width:81px
+    }
+    .header__search {
+        padding: 30px;
+    }
+    .header__search-input {
+        color: #000;
+        border-radius: 10px!important;
+        background-image: linear-gradient(to bottom,#d8d8d8,#fefefe);
+        border: none;
+        box-shadow: 1px 1px 1px #000;
+        height: 63px;
+    }
+    .header__search-btn {
+        position: absolute;
+        top:25px;
+        right: 25px;
     }
 }
 #banner-secundario {
@@ -32,4 +92,77 @@
 }
 .banners-grid .banner:hover {
     opacity: .7;
+} 
+.top-bar {
+    .fa-facebook:before {
+        content: url('/img/uploads/facebook.png');
+    }
+    .fa-instagram:before {
+        content: url('/img/uploads/insta.png');
+    }
+    .fab.fa-whatsapp::before {
+        content: url('/img/uploads/whats.png');
+    }
+    .fas.fa-phone::before {
+        content: url('/img/uploads/phone.png');
+    }
+    .fas.fa-mail::before {
+        content: url('/img/uploads/mail.png');
+    }
+    * {
+        color: #fff
+    }
+}
+.horario {
+    float: right;
+    color: #fff;
+    font-weight: 700;
+    margin-top: .8px;
+}
+#links-contato {
+    width: 70%;
+    text-align: right;
+    float: right;
+    a:last-child {
+        margin-right: 0 !important;
+    }
+}
+.entrar {
+    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/entrar.png) left top no-repeat;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 65px;
+    height: 62px;
+    margin-right: 5%;
+    transition: all 1.5s ease;
+    float: right;
+}
+.entrar:hover {
+    background-position:0 -65px
+}
+.pedidos {
+    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/pedidos.png) left top no-repeat;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 65px;
+    height: 62px;
+    margin-right: 5%;
+    transition: all 1.5s ease;
+    float: right;
+}
+.pedidos:hover {
+    background-position:0 -65px
+}
+#pulseiras-masculinas::before {
+        content: " ";
+        background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/ofertas.png);
+        width: 62px;
+        height: 49px;
+        background-repeat: no-repeat;
+        position: absolute;
+        display: block;
+        left: 0;
+        top: 50%;
+        margin-top: -25px;
+        transition: all 0.5s ease;
 }
