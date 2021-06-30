@@ -153,3 +153,26 @@ body {
 .pedidos:hover {
     background-position:0 -65px
 }
+.products-carousel__title {
+    text-align: start;
+    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/grid.jpg) no-repeat 0;
+    margin-bottom: 22px;
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-weight: 700;
+    a {
+        background: none;
+        color: #fff;
+        &::after {
+            content: '+ VER MAIS';
+            font-size: 1rem;
+            font-weight: 700;
+            padding: .5rem;
+            color: #000 !important;
+        }
+    }
+    &::before {
+        display: none;
+    }
+}
