@@ -51,7 +51,7 @@ body {
     .informacoes ul li img{
         margin-right:5px
     }
-    .header{
+    .header:not(.reduce-header) {
         height:200px;
     }
     .search-input-but {
@@ -175,4 +175,10 @@ body {
     &::before {
         display: none;
     }
+}
+.header.reduce-header {
+    background: #fff;
+}
+.header:not(.reduce-header) #menu {
+    padding-top: 20px;
 }
