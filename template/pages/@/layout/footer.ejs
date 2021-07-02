@@ -12,9 +12,25 @@ const networksWithColors = [
   ['pinterest', '#bd081c'],
   ['linkedin', '#0073b1']
 ]
+const { path } = _.route
 %>
 
 <footer class="footer py-3 py-lg-4 py-xl-5">
+  <div class="pre-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 pre-footer-col">
+          <% if (path === '/' || path === '/index') { %> 
+            <h1 itemprop="name">Lima Store</h1>
+          <% } else { %>
+            <h2 itemprop="name">Lima Store</h2>
+          <% } %>
+          <h4>A Lima Store é uma loja virtual com um conceito moderno, contemporâneo e requintado. No mercado desde 2008, buscamos atender nossos clientes com presteza e seriedade, oferecendo produtos de altíssima qualidade e bom gosto. <br>
+          </h4>
+        <div class="facebook-plugin"><iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fempresalimastore%2F&amp;tabs&amp;width=255&amp;height=230&amp;small_header=false&amp;adapt_container_width=true&amp;hide_cover=false&amp;show_facepile=true&amp;appId=2228997023992981" width="255" height="230" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true"></iframe></div></div>  
+      </div>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-auto order-lg-last pl-xl-4">

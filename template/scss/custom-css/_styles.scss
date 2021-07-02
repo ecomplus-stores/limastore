@@ -182,3 +182,17 @@ body {
 .header:not(.reduce-header) #menu {
     padding-top: 20px;
 }
+.pre-footer h1, .pre-footer h2 {
+    color: #8b3333;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+@media (min-width: 992px) {
+    .pre-footer {
+        height: 350px;
+        background-size: 100% 100%!important;
+        background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/pre-footer.png);
+    }
+}
