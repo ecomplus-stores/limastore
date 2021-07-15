@@ -41,19 +41,6 @@
       <div class="glide__track" data-glide-el="track">
         <ul class="glide__slides">
           <li
-            v-if="videoSrc"
-            class="glide__slide"
-            :key="'slide-' + localPictures.length"
-          >
-            <div class="embed-responsive embed-responsive-16by9">
-              <iframe
-                class="embed-responsive-item"
-                :src="videoSrc"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </li>
-          <li
             v-for="(picture, i) in localPictures"
             class="glide__slide"
             :key="'slide-' + i"
@@ -79,6 +66,19 @@
                 class="gallery__big-image"
                 :src="getImg(picture, null, 'big')"
               />
+            </div>
+          </li>
+          <li
+            v-if="videoSrc"
+            class="glide__slide"
+            :key="'slide-' + localPictures.length"
+          >
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe
+                class="embed-responsive-item"
+                :src="videoSrc"
+                allowfullscreen
+              ></iframe>
             </div>
           </li>
         </ul>
