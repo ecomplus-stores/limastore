@@ -288,14 +288,55 @@ if (header.categories_list) {
           <% } %>
         </div>
       <% } %>
+      <% 
+        const parentCategory = _.lodash.groupBy(_.categories, ({ parent }) => {
+          return !parent || !parent.slug ? '_' : parent.slug
+        })
+        const submenuId = slug => `a-${slug.replace(/\//g, '_')}`
+      %>
       <% if (categories && categories.length) { %>
         <div id="menu" class="d-none d-lg-block <%= isCategoriesNavFull ? 'col-12 order-lg-last' : 'col' %>">
           <nav class="header__nav<%= isCategoriesNavFull ? ' header__nav--full' : '' %>">
-            <% categories.forEach(({ slug, name }) => { %>
-              <a id="<%= slug.replace('/', '') %>" href="javascript:;" onclick="toggleSidenav('<%= slug %>')">
-                <%= ` ${name} ` %>
-              </a>
+            <ul class="w-100 m-0">
+            <% categories.forEach(({ slug, name, _id }) => { %>
+              <li class="<%- parentCategory[slug] ? 'dropdown' : '' %>">
+                <span>
+                  <a id="<%= slug.replace('/', '') %>" href="/<%= slug %>">
+                    <h4>
+                      <%= ` ${name} ` %> 
+                    </h4>
+                  </a>
+                </span>
+                <% if (parentCategory[slug]) { %>
+                  <ul class="dropdown-menu row">
+                  <% parentCategory[slug].forEach(subcategory => { %>
+                    <% const hasSubmenu = Array.isArray(parentCategory[subcategory.slug]) %>
+                    <li class="col-12 col-lg-auto pr-4 mr-4 header-col">
+                      <a href="/<%= subcategory.slug %>">
+                        <h4 class="submenu">
+                          <%= subcategory.name %>
+                        </h4>
+                      </a>
+                      <% if (hasSubmenu) { %>
+                        <ul>
+                          <% parentCategory[subcategory.slug].forEach(subcategory_ => { %>
+                            <li>
+                              <a class="hasSubmenu" href="/<%= subcategory_.slug %>">
+                                <h4>
+                                  <%= subcategory_.name %>
+                                </h4>
+                              </a>
+                            </li>
+                          <% }) %>
+                        </ul>
+                      <% } %>
+                    </li>
+                  <% }) %>  
+                  </ul>
+                <% } %>
+              </li>
             <% }) %>
+          </ul>
           </nav>
         </div>
       <% } %>
