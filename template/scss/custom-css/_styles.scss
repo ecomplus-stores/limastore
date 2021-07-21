@@ -246,27 +246,29 @@ body {
 .header,
 .header__container{margin-bottom:0;border-bottom:0;}
 .header__nav > ul > li > span{position:relative;display:block;padding-bottom:0.5rem;}
-.header__nav  > ul > li:hover > span:before,
-.header__nav  > ul > li.open > span:before{
-    content: "";
-    height: 6px;
-    background: #303030;
-    width: 100%;
-    position: absolute;
-    bottom: 4px;
-    left: 0;
-}
 .submenu {
     color: #8b3333;
     border-bottom: 1px solid rgba(238,238,238,.2);
 }
-.header__na li:hover {
-    text-decoration: none;
-    background-color: #8b3333 !important;
+.header-col ul li {
+    &:hover {
+        text-decoration: none;
+        background-color: #8b3333 !important;
+    }
+    a {
+        border-radius: 4px !important;
+        padding: 10px 15px;
+    }
 }
-.header__nav > ul {
-    display: flex;
-    justify-content: center;
+.header__nav {
+    &  > ul {
+        display: flex;
+        justify-content: center;
+    }
+    li:hover, a:hover, h4:hover {
+        text-decoration: none !important;
+        outline: 0;
+    }
 }
 .hasSubmenu {
     h4 {
@@ -274,5 +276,43 @@ body {
     }
     &:hover {
         background-color: #8b3333;
+    }
+}
+
+.header__nav > ul > li a {
+    padding-left: 62px;
+    &:before {
+        content: " ";
+        width: 62px;
+        height: 49px;
+        background-repeat: no-repeat;
+        position: absolute;
+        display: block;
+        left: 0%;
+        top: -30%;
+        transition: all 0.5s ease;
+    }
+    &:hover::before {
+        background-position:0 -49px
+    }
+    &#acessorios {
+        &:before {
+            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/ofertas.png);
+        }
+    }
+    &#acessorios-femininos {
+        &:before {
+            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/feminino.png);
+        }
+    }
+    &#acessorios-casais {
+        &:before {
+            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/casais.png);
+        }
+    }
+    &#acessorios-masculinos {
+        &:before {
+            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/masculino.png);
+        }
     }
 }
