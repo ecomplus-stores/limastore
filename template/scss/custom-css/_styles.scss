@@ -17,6 +17,43 @@ body {
     .header__logo {
         max-height: 105px;
     }
+    .pre-footer .col-12 {
+        display: block;
+        width: 100%;
+        height: 330px;
+        padding-top: 60px;
+        padding-left: 326px;
+        position: relative;
+        &:before {
+            content: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/logo-pre-footer.png);
+            width: 326px;
+            height: 103px;
+            position: absolute;
+            top: 40%;
+            margin-top: -52px;
+            left: 0;
+        }  
+        h1 {
+            font-size: 20px;
+        } 
+        h4 {
+            color: #fff;
+            font-size: 13px;
+            width: 67%;
+            &::after {
+                content: "Com um site moderno e seguro, a Lima Store oferece a seus clientes a oportunidade de comprar nossos produtos sem sair de casa, e contamos com informações detalhadas das pessoas, fotos de alta definição e vídeos demonstrativos dos produtos, além de uma equipe de atendimento atenciosa e capacitada. Nosso maior objetivo está em proporcionar satisfação e contentamento desde a compra até o recebimento dos nossos produtos, e principalmente, ressaltar ainda mais a beleza e auto estima dos nossos clientes.";
+                display: block;
+                margin-top: 10px;
+            }
+        }
+        .facebook-plugin {
+            width: 250px;
+            height: auto;
+            position: absolute;
+            right: 0;
+            top: 30px;
+        }
+    }
 }
 @media(max-width: 767px) {
     .orders {
