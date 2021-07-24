@@ -364,6 +364,41 @@ body {
     background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/footer.png) !important;
     background-color: transparent !important;
 }
-.pre-footer + .container .row {
-    justify-content: space-between;
+.pre-footer + .container {
+    .row {
+        justify-content: space-between;
+    }
+    padding-top: 2rem;
+}
+.credits {
+    display: flex;
+    justify-content: center;
+}
+#go-to-top {
+    right: 0;
+    position: fixed;
+    bottom: 5px;
+}
+.footer {
+    &__title {
+        font-size: 20px;
+        color: #8b3333;
+        font-weight: 700;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        border-bottom: 1px solid rgba(0,0,0,.1) !important;
+        &+ *, &+ a {
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    }
+    &__links, &__contacts {
+        a {
+            color: #000;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+        }
+    } 
 }

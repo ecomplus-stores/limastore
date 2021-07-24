@@ -52,10 +52,12 @@ const { path } = _.route
                 <% _.categories.forEach(({ name, slug, parent }) => { %>
                   <% if (!parent) { %>
                     <li>
-                      <i class="fas fa-angle-right"></i>
-                      <a href="/<%= slug %>">
-                        <%= name %>
-                      </a>
+                      <h3>
+                        <i class="fas fa-angle-right"></i>
+                        <a href="/<%= slug %>">
+                          <%= name %>
+                        </a>
+                      </h3>
                     </li>
                   <% } %>
                 <% }) %>
@@ -195,20 +197,6 @@ const { path } = _.route
 
 
     </div>
-
-    <div class="footer__credits">
-      <span>
-        <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
-      </span>
-      <button
-        id="go-to-top"
-        class="btn btn-primary ml-3"
-        type="button"
-        aria-label="<%= _.dictionary('goToTop') %>"
-      >
-        <i class="fas fa-chevron-up"></i>
-      </button>
-    </div>
   </div>
 </footer>
 
@@ -216,6 +204,7 @@ const { path } = _.route
   <div class="container" style="display: flex; margin-top: 1rem">
     <div class="col-12 col-sm-7 text-right" id="selos_seguranca">
       <h5>Selos e certificados</h5>
+      <hr>
       <div class="container-fluid">
         <div class="footer__stamps">
           <%- await include(`@/sections/stamps`, { _, opt: { stamps: footer.stamps } }) %>
@@ -224,6 +213,7 @@ const { path } = _.route
     </div>
     <div class="col-12 col-sm-5" id="selos_pagamentos" style="text-align: right">
       <h5>Pague Com</h5>
+      <hr>
       <div class="mt-4 mb-3">
         <p class="footer__payment-methods">
           <% Object.keys(footer.payment_methods).forEach(method => { %>
@@ -237,6 +227,13 @@ const { path } = _.route
   </div>
   </div>
 
+  <div class="credits">
+    <div class="row">
+      <span>
+        <%= footer.credits || `© ${_.store.name} / ${contacts.address} / ${contacts.doc_number}` %>
+      </span>
+    </div>
+  </div>
 
 <div class="ecom-credits">
   <a href="https://e-com.plus" target="_blank" rel="noopener">
@@ -249,3 +246,12 @@ const { path } = _.route
     >
   </a>
 </div>
+
+<button
+id="go-to-top"
+class="btn btn-primary ml-3"
+type="button"
+aria-label="<%= _.dictionary('goToTop') %>"
+>
+<i class="fas fa-chevron-up"></i>
+</button>
