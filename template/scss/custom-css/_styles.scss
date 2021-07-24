@@ -356,9 +356,9 @@ body {
 .gallery__stage .embed-responsive.embed-responsive-16by9 {
     height: 320px;
 }
-footer, #info-footer {
-    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/footer.png);
-    background-color: transparent;
+.footer, #info-footer {
+    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/footer.png) !important;
+    background-color: transparent !important;
 }
 .pre-footer + .container .row {
     justify-content: space-between;
