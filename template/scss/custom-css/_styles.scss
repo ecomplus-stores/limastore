@@ -14,7 +14,20 @@ body {
         --banner-aspect-ratio: 1!important;
         height: auto;
     }
-    .header__logo {
+    .reduce-header {
+        background: #fff;
+    }
+    .header__toggler, .reduce-header .col-auto.p-0, .reduce-header #search-bar {
+        display: none !important;
+    }
+    .reduce-header .col.col-lg-auto.pl-1.pl-md-2.pl-lg-3 {
+        flex: 0 0 10% !important
+    }
+    .reduce-header #menu {
+        flex: 0 0 75% !important;
+        padding-top: 1rem;
+    }
+    .header:not(.reduce-header).header__logo {
         max-height: 105px;
     }
     .pre-footer .col-12 {
@@ -298,7 +311,7 @@ body {
     }
     a {
         border-radius: 4px !important;
-        padding: 10px 15px;
+        padding: 2px 15px;
     }
 }
 .header__nav {
