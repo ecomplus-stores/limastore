@@ -39,14 +39,15 @@
           "mobile_img": "/img/uploads/bn-full4-mobile.jpg"
         },
         {
-          "start": "2022-05-04T02:56:24.515Z",
-          "end": "2022-05-04T02:56:57.003Z",
+          "start": "",
+          "end": "",
           "img": "/img/uploads/banner_colares_casal.jpg",
           "link": "/acessorios-casais/",
           "alt": "acessorios casais",
           "mobile_img": "/img/uploads/bn-full5-mobile.jpg"
         }
-      ]
+      ],
+      "full_width": true
     },
     {
       "type": "responsive-banner",
@@ -126,6 +127,9 @@
       "type": "dynamic-showcase",
       "load_more": true,
       "sort": "views"
+    },
+    {
+      "type": "banners-grid"
     }
   ]
 }
