@@ -23,16 +23,6 @@
     {
       "type": "product-description",
       "enabled": true
-    },
-    {
-      "type": "collection-shelf",
-      "shuffle": false,
-      "limit": 12,
-      "page": 1
-    },
-    {
-      "type": "custom-content",
-      "markdown": "<!--StartFragment-->\n\n1. O que é terapia magnética?\n\nA terapia magnética é baseada na teoria de que, quando em contato diretamente ao corpo, campos magnéticos podem estimular a cura de uma série de problemas de saúde.\n\n2. Como funcionam as nossas pulseiras magnéticas?\n\nA teoria magnética atua nas artérias ao redor do pulso, cujos ímãs melhoram a circulação, dando ao corpo mais nutrientes necessários ao sangue, melhorando a saúde naturalmente.\n\nA função magnética tem efeitos no sistema neural, atua nos vasos sanguíneos, na função imunológica e na atividade enzimática.\n\n<!--EndFragment-->"
     }
   ]
 }
