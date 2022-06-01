@@ -64,6 +64,15 @@
       ]
     },
     {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/facebook-quadrado.png",
+          "link": "pulseiras-de-aco-masculinas/"
+        }
+      ]
+    },
+    {
       "type": "banners-triple",
       "banners": [
         {
