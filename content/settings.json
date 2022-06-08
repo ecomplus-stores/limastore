@@ -13,10 +13,12 @@
   "lang": "pt_br",
   "currency": "BRL",
   "mini_logo": "",
+  "font_family": "_",
   "favicon": "/img/uploads/favicon.jpg",
+  "icons_font": "_",
   "country_code": "BR",
   "secondary_color": "#313131",
-  "icon": "/img/uploads/logo.png",
+  "icon": "/img/uploads/logo-b-fundo-transparentemenor.png",
   "store_id": 1221,
   "description": "A Lima Store é uma loja virtual com um conceito moderno, contemporâneo e requintado. No mercado desde 2008, buscamos atender nossos clientes com presteza e seriedade, oferecendo produtos de altíssima qualidade e bom gosto. 8b3333",
   "large_icon": "/img/uploads/logo.png"
