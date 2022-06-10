@@ -114,10 +114,11 @@ if (mainCategories) {
                       data-preload="<%= (index * 200) %>"
                     >
                   </span>
+                <% } else { %>
+                  <span>
+                    <%= subcategory.name %>
+                  </span>
                 <% } %>
-                <span>
-                  <%= subcategory.name %>
-                </span>
               </a>
             <% }) %>
           </div>

@@ -420,3 +420,27 @@ body {
         background: #8C3433
     }
 }
+.menu__item-icon {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+}
+.menu__list a {
+    padding: 1px;
+}
+@media(max-width: 767px) {
+    #main {
+        overflow-x: hidden !important;
+      }
+      .header {
+        position: fixed;
+      }
+      .banner-slider {
+        margin-top: 55px;
+      }
+      .top-bar {
+        position: fixed;
+        top: 0;
+        z-index: 900;
+        }
+    }
