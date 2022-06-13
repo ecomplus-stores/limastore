@@ -4,7 +4,7 @@ body {
     background-position: top center;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    max-width: 100%;
+    max-width: 100% !important;
 }
 .top-bar, .header {
     background: none;
@@ -427,7 +427,7 @@ body {
     margin-right: 0;
 }
 .menu__list a {
-    padding: 4px;
+    padding: 4px !important;
 }
 @media(max-width: 767px) {
     #main {
