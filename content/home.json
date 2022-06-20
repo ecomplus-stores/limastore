@@ -65,20 +65,7 @@
     },
     {
       "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/facebook-quadrado.png",
-          "link": "pulseiras-de-aco-masculinas/"
-        },
-        {
-          "img": "/img/uploads/facebook-quadrado.png",
-          "link": "pulseiras-magneticas/"
-        },
-        {
-          "img": "/img/uploads/1_05.jpg",
-          "link": "pulseiras-de-couro-masculinas/"
-        }
-      ]
+      "banners": []
     },
     {
       "type": "banners-triple",
@@ -154,18 +141,7 @@
       "max_hours": 24,
       "start": "2022-06-12T21:54:22.702Z",
       "end": "2022-06-20T21:54:22.824Z",
-      "offers": [
-        "602dcfad9332dd6865d7ae22",
-        "602dd65f9332dd6865d7b207",
-        "602dd08d9332dd6865d7aea9",
-        "602dd1279332dd6865d7af39",
-        "602dd3259332dd6865d7b04e",
-        "602dd0b69332dd6865d7aec3",
-        "602dcf7d9332dd6865d7ae07",
-        "602dd0b69332dd6865d7aec3",
-        "602ddc5a9332dd6865d7b5dc",
-        "602dd9079332dd6865d7b3d2"
-      ],
+      "offers": [],
       "notes": "Veja nossos promoções do dia, você não pode perder!"
     }
   ]
