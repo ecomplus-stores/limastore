@@ -143,6 +143,19 @@
       "end": "2022-06-20T21:54:22.824Z",
       "offers": [],
       "notes": "Veja nossos promoções do dia, você não pode perder!"
+    },
+    {
+      "type": "banners-triple",
+      "banners": [
+        {
+          "img": "/img/uploads/facebook-quadrado.png",
+          "mobile_img": "/img/uploads/facebook-quadrado.png"
+        },
+        {
+          "img": "/img/uploads/1_05.jpg",
+          "mobile_img": "/img/uploads/1_05.jpg"
+        }
+      ]
     }
   ]
 }
