@@ -9,42 +9,42 @@
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/pulseira-masculina-aco-inoxidavel-banhadas-a-ouro1.jpg",
-          "mobile_img": "/img/uploads/bn-full2-mobile.jpg",
+          "img": "/img/uploads/banner-pulseira-aco-inox-limastore.webp",
+          "mobile_img": "/img/uploads/banner-pulseira-aco-inox-limastore-mobile.webp",
           "link": "/pulseira-de-aco/",
           "alt": "acessórios masculinos"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner-pulseiras-magneticas-1.jpg",
+          "img": "/img/uploads/banner-pulseira-magnetica-limastore.webp",
           "link": "/pulseira-magnetica-masculina/",
           "alt": "pulseiras magneticas",
-          "mobile_img": "/img/uploads/bne-mobile-pulsieras-magneticas.jpg"
+          "mobile_img": "/img/uploads/banner-pulseira-magnetica-limastore-mobile.webp"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner_01_couro_2.jpg",
+          "img": "/img/uploads/banner-pulseira-masculina-couro-limastore.webp",
           "link": "/pulseiras-de-couro-masculinas/",
           "alt": "pulseiras de couro masculinas",
-          "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-full3-mobile.jpg"
+          "mobile_img": "/img/uploads/banner-pulseira-masculina-couro-limastore-mobile.webp"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner_colares_couro_01.jpg",
+          "img": "/img/uploads/banner-colares-masculino-limastore.webp",
           "link": "/colares-masculinos/",
           "alt": "colares masculinos",
-          "mobile_img": "/img/uploads/bn-full4-mobile.jpg"
+          "mobile_img": "/img/uploads/banner-colares-masculino-limastore-mobile.webp"
         },
         {
           "start": "",
           "end": "",
-          "img": "/img/uploads/banner_colares_casal.jpg",
+          "img": "/img/uploads/banner-colar-casal-limastore.webp",
           "link": "colar-de-casal/",
           "alt": "acessorios casais",
-          "mobile_img": "/img/uploads/bn-full5-mobile.jpg"
+          "mobile_img": "/img/uploads/banner-colar-casal-limastore-mobile.webp"
         }
       ],
       "full_width": true
