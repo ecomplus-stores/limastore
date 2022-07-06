@@ -1,6 +1,6 @@
 // Add your custom CSS here.
 body {
-    background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/fundo.jpg);
+    background-image: url(/img/uploads/fundo.jpg);
     background-position: top center;
     background-attachment: scroll;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
         padding-left: 326px;
         position: relative;
         &:before {
-            content: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/logo-pre-footer.png);
+            content: url(/img/uploads/logo-pre-footer.png);
             width: 326px;
             height: 103px;
             position: absolute;
@@ -183,7 +183,7 @@ body {
     }
 }
 .entrar {
-    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/entrar.png) left top no-repeat;
+    background: url(/img/uploads/entrar.png) left top no-repeat;
     background-repeat: no-repeat;
     background-position: top center;
     width: 65px;
@@ -196,7 +196,7 @@ body {
     background-position:0 -65px
 }
 .pedidos {
-    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/pedidos.png) left top no-repeat;
+    background: url(/img/uploads/pedidos.png) left top no-repeat;
     background-repeat: no-repeat;
     background-position: top center;
     width: 65px;
@@ -210,7 +210,7 @@ body {
 }
 .products-carousel__title {
     text-align: start;
-    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/grid.jpg) no-repeat 0;
+    background: url(/img/uploads/grid.jpg) no-repeat 0;
     margin-bottom: 22px;
     text-transform: uppercase;
     background-repeat: no-repeat;
@@ -248,7 +248,7 @@ body {
     .pre-footer {
         height: 350px;
         background-size: 100% 100%!important;
-        background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/pre-footer.png);
+        background: url(/img/uploads/pre-footer.png);
     }
 }
 #content {
@@ -352,22 +352,22 @@ body {
     }
     &#acessorios {
         &:before {
-            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/ofertas.png);
+            background-image: url(/img/uploads/ofertas.png);
         }
     }
     &#acessorios-femininos {
         &:before {
-            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/feminino.png);
+            background-image: url(/img/uploads/feminino.png);
         }
     }
     &#acessorios-casais {
         &:before {
-            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/casais.png);
+            background-image: url(/img/uploads/casais.png);
         }
     }
     &#acessorios-masculinos {
         &:before {
-            background-image: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/masculino.png);
+            background-image: url(/img/uploads/masculino.png);
         }
     }
 }
@@ -375,7 +375,7 @@ body {
     height: 320px;
 }
 .footer, #info-footer {
-    background: url(https://cdn.e-com.club/s/www.limastore.com.br/uploads/footer.png) !important;
+    background: url(/img/uploads/footer.png) !important;
     background-color: transparent !important;
 }
 .pre-footer + .container {
@@ -442,6 +442,9 @@ body {
         top: 0;
         z-index: 900;
         }
+    #menu {
+        width: 87% !important;
+    }
     }
 .product-card__buy button {
     background-color: #25BA34;
