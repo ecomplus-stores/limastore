@@ -33,16 +33,9 @@
       "title": "DESTAQUES"
     },
     {
-      "type": "banner-slider",
-      "autoplay": 9000,
-      "full_width": false,
-      "slides": [
-        {
-          "start": "2022-07-08T15:53:24.723Z",
-          "end": "2022-07-08T15:53:24.730Z",
-          "img": "/img/uploads/bn-tarja.jpg"
-        }
-      ]
+      "type": "responsive-banner",
+      "img": "/img/uploads/bn-tarja.jpg",
+      "mobile_img": "/img/uploads/bn-tarja.jpg"
     }
   ]
 }
