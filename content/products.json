@@ -27,6 +27,10 @@
     {
       "type": "related-products",
       "title": "MAIS VENDIDOS"
+    },
+    {
+      "type": "recommended-products",
+      "title": "DESTAQUES"
     }
   ]
 }
