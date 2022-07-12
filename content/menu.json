@@ -1,5 +1,13 @@
 {
-  "sort_categories": [],
+  "sort_categories": [
+    "acessorios-masculinos/",
+    "acessorios-femininos/",
+    "acessorios-casais/",
+    "acessorios/",
+    "mais-vendidos",
+    "kits"
+  ],
   "phone_wpp": true,
-  "socials": true
+  "socials": true,
+  "alphabetical_order": true
 }
