@@ -1,5 +1,5 @@
 // Add your custom CSS here.
-body {
+body:not(.app) {
     background-image: url(/img/uploads/fundo.jpg);
     background-position: top center;
     background-attachment: scroll;
