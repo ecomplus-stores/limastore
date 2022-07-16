@@ -136,10 +136,6 @@
     },
     {
       "type": "banners-grid"
-    },
-    {
-      "type": "blog",
-      "enabled": true
     }
   ]
 }
