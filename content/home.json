@@ -126,7 +126,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "https://cdn.e-com.club/s/www.limastore.com.br/uploads/videos.jpg"
+          "img": "https://cdn.e-com.club/s/www.limastore.com.br/uploads/videos.jpg",
+          "link": "https://www.youtube.com/c/LimaStoreOficial/featured"
         }
       ]
     },
