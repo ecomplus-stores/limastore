@@ -117,7 +117,8 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-tarja.jpg"
+          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-tarja.jpg",
+          "link": "/acessorios/"
         }
       ]
     },
