@@ -1,13 +1,14 @@
 // Add your custom CSS here.
 body:not(.app) {
-    background-image: url(/img/uploads/fundo.jpg);
+    //background-image: url(/img/uploads/fundo.jpg);
     background-position: top center;
     background-attachment: scroll;
     background-repeat: no-repeat;
     max-width: 100% !important;
 }
-.top-bar, .header {
-    background: none;
+
+.top-bar {
+    background: #8c3433;
 }
 @media(min-width: 768px) {
     .banner-slider {
@@ -90,11 +91,15 @@ body:not(.app) {
     .top-bar {
         display: block!important;
         position: relative;
-        height: 60px!important;
-        max-width: 1170px!important;
+        height: 70px!important;
+        max-width: 100%;
         padding-top: 13px;
         margin-right: auto;
         margin-left: auto;
+    }
+    
+    .header {
+        background: url(/img/uploads/fundo123.jpg) no-repeat;
     }
     
     .horario{
