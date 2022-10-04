@@ -44,13 +44,13 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/tarja-1.jpg",
-      "mobile_img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/tarja-mobile.jpg"
+      "mobile_img": "/img/uploads/tarja-mobile.jpg"
     },
     {
       "type": "banners-grid",
       "banners": [
         {
-          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bne-tarja-pulseiras-magneticas.jpg",
+          "img": "/img/uploads/bne-tarja-pulseiras-magneticas.jpg",
           "link": "/pulseira-magnetica-masculina/"
         }
       ]
@@ -63,18 +63,18 @@
       "type": "banners-triple",
       "banners": [
         {
-          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/pulseirasclean.jpg",
+          "img": "/img/uploads/pulseirasclean.jpg",
           "alt": "",
           "link": "/acessorios-masculinos/",
           "mobile_img": ""
         },
         {
-          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/colaresclean.jpg",
+          "img": "/img/uploads/colaresclean.jpg",
           "alt": "",
           "link": "/colares-masculinos/"
         },
         {
-          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/femininoclean.jpg",
+          "img": "/img/uploads/femininoclean.jpg",
           "alt": "",
           "link": "/acessorios-femininos/"
         }
@@ -109,7 +109,7 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "https://cdn.ecvol.com/s/www.limastore.com.br/uploads/bn-tarja.jpg",
+          "img": "/img/uploads/bn-tarja.jpg",
           "link": "/acessorios/"
         }
       ]
@@ -118,7 +118,7 @@
       "type": "banners-grid",
       "banners": [
         {
-          "img": "https://cdn.e-com.club/s/www.limastore.com.br/uploads/videos.jpg",
+          "img": "/img/uploads/videos.jpg",
           "link": "https://www.youtube.com/c/LimaStoreOficial/featured"
         }
       ]
