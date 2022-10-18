@@ -16,7 +16,7 @@
       "/acessorios/?OUTLET",
       "/mais-vendidos?MAIS VENDIDOS"
     ],
-    "random": 6,
+    "random": 0,
     "full_width": true
   },
   "search_input": true,
