@@ -121,6 +121,11 @@
       ]
     },
     {
+      "type": "dynamic-showcase",
+      "load_more": false,
+      "sort": "offers"
+    },
+    {
       "type": "banners-grid",
       "banners": [
         {
@@ -128,14 +133,6 @@
           "link": "https://www.youtube.com/c/LimaStoreOficial/featured"
         }
       ]
-    },
-    {
-      "type": "dynamic-showcase",
-      "load_more": false,
-      "sort": "offers"
-    },
-    {
-      "type": "banners-grid"
     }
   ]
 }
