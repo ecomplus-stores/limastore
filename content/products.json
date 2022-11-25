@@ -36,6 +36,13 @@
       "page": 1,
       "title": "Quem comprou este produto, também comprou:",
       "sort": "sales"
+    },
+    {
+      "type": "offers-timer",
+      "max_hours": 24,
+      "start": "2022-11-25T02:03:24.913Z",
+      "end": "2022-11-25T02:03:24.934Z",
+      "offers": []
     }
   ]
 }
