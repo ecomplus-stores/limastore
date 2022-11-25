@@ -17,10 +17,6 @@
       "enabled": true
     },
     {
-      "type": "recommended-products",
-      "title": "MAIS VENDIDOS"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -32,6 +28,11 @@
       "type": "responsive-banner",
       "img": "/img/uploads/bn-tarja.jpg",
       "mobile_img": "/img/uploads/bn-tarja.jpg"
+    },
+    {
+      "type": "dynamic-showcase",
+      "load_more": true,
+      "sort": "sales"
     }
   ]
 }
