@@ -33,6 +33,11 @@
       "sort": "sales"
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/bn-tarja.jpg",
+      "mobile_img": "/img/uploads/bn-tarja.jpg"
+    },
+    {
       "type": "offers-timer",
       "max_hours": 24,
       "start": "2022-11-25T02:34:37.720Z",
@@ -44,11 +49,6 @@
         "602dd6879332dd6865d7b21d",
         "602ddd189332dd6865d7b651"
       ]
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/bn-tarja.jpg",
-      "mobile_img": "/img/uploads/bn-tarja.jpg"
     }
   ]
 }
