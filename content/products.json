@@ -17,6 +17,11 @@
       "enabled": true
     },
     {
+      "type": "responsive-banner",
+      "img": "/img/uploads/banner-black-friday-limastore-pc.jpg",
+      "mobile_img": "/img/uploads/banner-black-friday-limastore-mobile.png"
+    },
+    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
@@ -31,11 +36,6 @@
       "page": 2,
       "title": "Quem comprou este produto, também comprou:",
       "sort": "sales"
-    },
-    {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-black-friday-limastore-pc.jpg",
-      "mobile_img": "/img/uploads/banner-black-friday-limastore-mobile.png"
     }
   ]
 }
