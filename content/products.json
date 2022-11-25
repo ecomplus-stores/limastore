@@ -30,8 +30,11 @@
       "mobile_img": "/img/uploads/bn-tarja.jpg"
     },
     {
-      "type": "dynamic-showcase",
-      "load_more": true,
+      "type": "collection-shelf",
+      "shuffle": true,
+      "limit": 12,
+      "page": 1,
+      "title": "Quem comprou este produto, também comprou:",
       "sort": "sales"
     }
   ]
