@@ -21,7 +21,7 @@
       "shuffle": false,
       "limit": 12,
       "page": 2,
-      "sort": "sales",
+      "sort": "views",
       "title": "Você também pode gostar"
     },
     {
