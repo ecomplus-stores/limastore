@@ -27,8 +27,8 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "limit": 12,
-      "page": 1,
+      "limit": 8,
+      "page": 2,
       "title": "Quem comprou este produto, também comprou:",
       "sort": "sales"
     },
