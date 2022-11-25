@@ -36,19 +36,6 @@
       "type": "responsive-banner",
       "img": "/img/uploads/bn-tarja.jpg",
       "mobile_img": "/img/uploads/bn-tarja.jpg"
-    },
-    {
-      "type": "offers-timer",
-      "max_hours": 24,
-      "start": "2022-11-25T02:34:37.720Z",
-      "end": "2022-11-26T02:32:45.527Z",
-      "offers": [
-        "602deded9332dd6865d7c0e7",
-        "602dee179332dd6865d7c102",
-        "602deea09332dd6865d7c158",
-        "602dd6879332dd6865d7b21d",
-        "602ddd189332dd6865d7b651"
-      ]
     }
   ]
 }
