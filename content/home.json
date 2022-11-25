@@ -7,6 +7,12 @@
       "autoplay": 9000,
       "slides": [
         {
+          "start": "2022-11-25T14:04:26.294Z",
+          "end": "2022-11-06T03:00:00.000Z",
+          "img": "/img/uploads/banner-black-friday-limastore-pc.jpg",
+          "mobile_img": "/img/uploads/banner-black-friday-limastore-mobile.png"
+        },
+        {
           "start": "",
           "end": "",
           "img": "/img/uploads/banner-pulseira-aco-inoxidavel-limastore-1.webp",
@@ -37,12 +43,6 @@
           "link": "colar-de-casal/",
           "alt": "acessorios casais",
           "mobile_img": "/img/uploads/banner-colar-casal-limastore-2.webp"
-        },
-        {
-          "start": "2022-11-25T14:04:26.294Z",
-          "end": "2022-11-06T03:00:00.000Z",
-          "img": "/img/uploads/banner-black-friday-limastore-pc.jpg",
-          "mobile_img": "/img/uploads/banner-black-friday-limastore-mobile.png"
         }
       ],
       "full_width": true
