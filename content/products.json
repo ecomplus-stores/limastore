@@ -21,6 +21,12 @@
       "title": "DESTAQUES"
     },
     {
+      "type": "collection-shelf",
+      "shuffle": false,
+      "limit": 12,
+      "page": 1
+    },
+    {
       "type": "responsive-banner",
       "img": "/img/uploads/bn-tarja.jpg",
       "mobile_img": "/img/uploads/bn-tarja.jpg"
