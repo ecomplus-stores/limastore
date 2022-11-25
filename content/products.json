@@ -25,11 +25,6 @@
       "title": "Você também pode gostar"
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/bn-tarja.jpg",
-      "mobile_img": "/img/uploads/bn-tarja.jpg"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "limit": 12,
@@ -42,7 +37,14 @@
       "max_hours": 24,
       "start": "2022-11-25T02:03:24.913Z",
       "end": "2022-11-25T02:03:24.934Z",
-      "offers": []
+      "offers": [
+        "602deded9332dd6865d7c0e7"
+      ]
+    },
+    {
+      "type": "responsive-banner",
+      "img": "/img/uploads/bn-tarja.jpg",
+      "mobile_img": "/img/uploads/bn-tarja.jpg"
     }
   ]
 }
