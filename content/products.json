@@ -17,11 +17,6 @@
       "enabled": true
     },
     {
-      "type": "responsive-banner",
-      "img": "/img/uploads/banner-black-friday-limastore-pc.jpg",
-      "mobile_img": "/img/uploads/banner-black-friday-limastore-mobile.png"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": false,
       "limit": 12,
