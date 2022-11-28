@@ -106,15 +106,6 @@
       "title": "OFERTAS"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-black-friday-limastore-pc.jpg",
-          "link": "/acessorios/"
-        }
-      ]
-    },
-    {
       "type": "dynamic-showcase",
       "load_more": false,
       "sort": "offers"
