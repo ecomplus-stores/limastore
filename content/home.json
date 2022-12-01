@@ -119,7 +119,7 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/blackcopapc.jpg",
-      "mobile_img": "/img/uploads/bannercopamobile.jpg"
+      "mobile_img": "/img/uploads/blackcopapc.jpg"
     },
     {
       "type": "banners-grid",
