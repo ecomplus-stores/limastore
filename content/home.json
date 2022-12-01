@@ -95,14 +95,6 @@
       "title": "DESTAQUES"
     },
     {
-      "type": "custom-html",
-      "html": "<h4 class=\"products-carousel__title\">Veja os comentários de quem já experimentou:</h4>"
-    },
-    {
-      "type": "custom-html",
-      "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '72470'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
-    },
-    {
       "type": "collection-shelf",
       "shuffle": true,
       "collection_id": null,
@@ -110,6 +102,14 @@
       "page": 2,
       "title": "MAIS VENDIDOS",
       "sort": "sales"
+    },
+    {
+      "type": "custom-html",
+      "html": "<h4 class=\"products-carousel__title\">Veja os comentários de quem já experimentou:</h4>"
+    },
+    {
+      "type": "custom-html",
+      "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '72470'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
     },
     {
       "type": "collection-shelf",
