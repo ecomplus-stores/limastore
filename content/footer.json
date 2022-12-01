@@ -24,6 +24,10 @@
     {
       "src": "/img/uploads/ssl-safe.png",
       "alt": "Secure connection"
+    },
+    {
+      "src": "/img/uploads/download.png",
+      "link": "https://transparencyreport.google.com/safe-browsing/search?url=limastore.com.br"
     }
   ],
   "payment_methods": {
