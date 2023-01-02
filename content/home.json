@@ -56,10 +56,6 @@
       ]
     },
     {
-      "type": "banners-grid",
-      "banners": []
-    },
-    {
       "type": "banners-triple",
       "banners": [
         {
