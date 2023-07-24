@@ -1,3 +1,11 @@
 {
-  "stamps_list": []
+  "stamps_list": [
+    {
+      "img": "/img/uploads/22-400x400.png",
+      "skus": [
+        "LSPA001",
+        "LSPA015"
+      ]
+    }
+  ]
 }
