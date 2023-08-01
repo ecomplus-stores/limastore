@@ -9,6 +9,12 @@
         {
           "start": "",
           "end": "",
+          "img": "/img/uploads/banner-dia-dos-pais.jpg",
+          "mobile_img": "/img/uploads/mobile-banner-dia-dos-pais.jpg"
+        },
+        {
+          "start": "",
+          "end": "",
           "img": "/img/uploads/banner-pulseira-aco-inoxidavel-limastore-1.webp",
           "mobile_img": "/img/uploads/banner-pulseira-aco-inoxidavel-limastore-2.webp",
           "link": "/pulseira-de-aco/",
@@ -37,12 +43,6 @@
           "link": "colar-de-casal/",
           "alt": "acessorios casais",
           "mobile_img": "/img/uploads/banner-colar-casal-limastore-2.webp"
-        },
-        {
-          "start": "",
-          "end": "",
-          "img": "/img/uploads/banner-dia-dos-pais.jpg",
-          "mobile_img": "/img/uploads/mobile-banner-dia-dos-pais.jpg"
         }
       ],
       "full_width": true
