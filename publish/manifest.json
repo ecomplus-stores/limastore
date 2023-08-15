@@ -1,0 +1,37 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.7c8abedb4133bda4527b5c86a0f81b79.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_384x384.4cc8973a41ca2d2013e9130744e52efc.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_192x192.f8b6469b1001d42ce34e0c5ee03adf70.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_128x128.61acd3d461b06d71e689cf572ec69afe.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon_96x96.2c171b74caeca7337c0fcf3c96841b23.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    }
+  ],
+  "name": "limastore",
+  "short_name": "Lima Store",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "description": "A Lima Store é uma loja virtual com um conceito moderno, contemporâneo e requintado. No mercado desde 2008, buscamos atender nossos clientes com presteza e seriedade, oferecendo produtos de altíssima qualidade e bom gosto. 8b3333",
+  "background_color": "#ffffff",
+  "theme_color": "#8b3333"
+}
