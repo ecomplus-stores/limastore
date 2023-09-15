@@ -1,7 +1,9 @@
 {
   "marketing_stripe": {
-    "text": "",
-    "link": ""
+    "text": "FRETE GRÁTIS ACIMA DE R$120,00",
+    "link": "",
+    "background": "#28b50d",
+    "color": ""
   },
   "contacts_stripe": {
     "pages": [],
