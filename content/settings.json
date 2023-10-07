@@ -7,7 +7,7 @@
     "custom": "_"
   },
   "bg_color": "#ffffff",
-  "logo": "/img/uploads/logo-b-fundo-transparentemenor.png",
+  "logo": "/img/uploads/logo-b-fundo-transparentemenor-menor.png",
   "name": "limastore",
   "short_name": "Lima Store",
   "lang": "pt_br",
@@ -18,9 +18,9 @@
   "icons_font": "_",
   "country_code": "BR",
   "secondary_color": "#313131",
-  "icon": "/img/uploads/logo-b-fundo-transparentemenor.png",
+  "icon": "/img/uploads/logo-b-fundo-transparentemenor-menor.png",
   "store_id": 1221,
   "repository": "ecomplus-stores/limastore",
   "description": "A Lima Store é uma loja virtual com um conceito moderno, contemporâneo e requintado. No mercado desde 2008, buscamos atender nossos clientes com presteza e seriedade, oferecendo produtos de altíssima qualidade e bom gosto. 8b3333",
-  "large_icon": "/img/uploads/logo-b-fundo-transparentemenor.png"
+  "large_icon": "/img/uploads/logo-b-fundo-transparentemenor-menor.png"
 }

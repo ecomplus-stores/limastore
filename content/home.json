@@ -44,13 +44,13 @@
     {
       "type": "responsive-banner",
       "img": "/img/uploads/tarja-1.jpg",
-      "mobile_img": "/img/uploads/tarja-mobile.jpg"
+      "mobile_img": "/img/uploads/tarja-mobile.webp"
     },
     {
       "type": "banners-grid",
       "banners": [
         {
-          "img": "/img/uploads/bne-tarja-pulseiras-magneticas.jpg",
+          "img": "/img/uploads/bne-tarja-pulseiras-magneticas.webp",
           "link": "/pulseira-magnetica-masculina/"
         }
       ]
@@ -59,13 +59,13 @@
       "type": "banners-triple",
       "banners": [
         {
-          "img": "/img/uploads/pulseirasclean.jpg",
+          "img": "/img/uploads/pulseirasclean.webp",
           "alt": "",
           "link": "/acessorios-masculinos/",
           "mobile_img": ""
         },
         {
-          "img": "/img/uploads/colaresclean.jpg",
+          "img": "/img/uploads/colaresclean.webp",
           "alt": "",
           "link": "/colares-masculinos/"
         },
