@@ -134,6 +134,15 @@
       "collection_ids": [
         "62c83896eb859112167d5db5:categories:KITS:/kits/"
       ]
+    },
+    {
+      "type": "shelfs-nav",
+      "shuffle": false,
+      "limit": 12,
+      "page": 2,
+      "collection_ids": [
+        "602d8b819332dd6865d70664:categories:PULSEIRAS COURO:/pulseiras-de-couro-masculinas/"
+      ]
     }
   ]
 }
