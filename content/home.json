@@ -148,13 +148,13 @@
       "type": "banners-triple",
       "banners": [
         {
+          "img": "/img/uploads/anyconv.com__teste-790x1040-790-x-1024-px-.webp"
+        },
+        {
           "img": "/img/uploads/banner-outono-jpeg.jpg"
         },
         {
           "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg"
-        },
-        {
-          "img": "/img/uploads/anyconv.com__teste-790x1040-790-x-1024-px-.webp"
         }
       ]
     }
