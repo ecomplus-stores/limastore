@@ -102,7 +102,7 @@
       "shuffle": true,
       "collection_id": null,
       "limit": 24,
-      "page": 2,
+      "page": 4,
       "title": "MAIS VENDIDOS",
       "sort": "sales"
     },
