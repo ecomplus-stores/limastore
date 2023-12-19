@@ -18,9 +18,10 @@
       "/acessorios-femininos/?ACESSÓRIOS FEMININOS",
       "/acessorios-casais/?ACESSÓRIOS CASAIS",
       "/acessorios/?OUTLET",
-      "/mais-vendidos?MAIS VENDIDOS"
+      "/mais-vendidos?MAIS VENDIDOS",
+      "/kits/?KITS"
     ],
-    "random": 0,
+    "random": 10,
     "full_width": true
   },
   "search_input": true,
