@@ -137,13 +137,8 @@
       ]
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/videos.jpg",
-          "link": "https://www.youtube.com/c/LimaStoreOficial/featured"
-        }
-      ]
+      "type": "blog",
+      "enabled": true
     }
   ]
 }
