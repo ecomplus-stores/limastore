@@ -1,7 +1,7 @@
 {
   "domain": "www.limastore.com.br",
   "currency_symbol": "R$",
-  "primary_color": "#e4e0df",
+  "primary_color": "#141414",
   "theme": {
     "bootswatch": "_",
     "custom": "_"
