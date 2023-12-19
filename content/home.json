@@ -123,8 +123,7 @@
       "limit": 12,
       "page": 2,
       "collection_ids": [
-        "602d8b9e9332dd6865d706ae:categories:PULSEIRAS MAGNÉTICAS:/pulseira-magnetica-masculina/",
-        "62aa385eeb85911216551d83:categories:PULSEIRAS MAGNÉTICAS FEMINAS:/pulseira-magnetica-masculina/-c586"
+        "602d8b9e9332dd6865d706ae:categories:PULSEIRAS MAGNÉTICAS:/pulseira-magnetica-masculina/"
       ]
     },
     {
@@ -135,10 +134,6 @@
       "collection_ids": [
         "62c83896eb859112167d5db5:categories:KITS:/kits/"
       ]
-    },
-    {
-      "type": "blog",
-      "enabled": true
     }
   ]
 }
