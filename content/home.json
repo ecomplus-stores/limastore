@@ -93,7 +93,7 @@
       "shuffle": true,
       "collection_id": null,
       "limit": 24,
-      "page": 5,
+      "page": 1,
       "title": "DESTAQUES",
       "sort": "views"
     },
