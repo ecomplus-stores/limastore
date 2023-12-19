@@ -106,14 +106,7 @@
     },
     {
       "type": "banners-triple",
-      "banners": [
-        {
-          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg"
-        },
-        {
-          "img": "/img/uploads/banner-outono-jpeg.jpg"
-        }
-      ]
+      "banners": []
     },
     {
       "type": "shelfs-nav",
