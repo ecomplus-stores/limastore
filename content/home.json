@@ -143,6 +143,20 @@
       "collection_ids": [
         "602d8b819332dd6865d70664:categories:PULSEIRAS COURO:/pulseiras-de-couro-masculinas/"
       ]
+    },
+    {
+      "type": "banners-triple",
+      "banners": [
+        {
+          "img": "/img/uploads/banner-outono-jpeg.jpg"
+        },
+        {
+          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg"
+        },
+        {
+          "img": "/img/uploads/natal-duas-xicaras-banner-2.jpg"
+        }
+      ]
     }
   ]
 }
