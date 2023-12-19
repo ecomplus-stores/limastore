@@ -111,6 +111,17 @@
       "sort": "offers"
     },
     {
+      "type": "banners-triple",
+      "banners": [
+        {
+          "img": "/img/uploads/banner-harry-potter-canecas-azul-lancamento.jpg"
+        },
+        {
+          "img": "/img/uploads/banner-outono-jpeg.jpg"
+        }
+      ]
+    },
+    {
       "type": "shelfs-nav",
       "shuffle": false,
       "limit": 12,
@@ -152,9 +163,6 @@
           "img": "/img/uploads/anyconv.com__teste-790x1040-790-x-1024-px-.webp"
         }
       ]
-    },
-    {
-      "type": "banners-triple"
     }
   ]
 }
