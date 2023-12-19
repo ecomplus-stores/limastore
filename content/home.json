@@ -107,7 +107,8 @@
       "collection_id": null,
       "limit": 20,
       "page": 3,
-      "title": "OFERTAS"
+      "title": "OFERTAS",
+      "sort": "offers"
     },
     {
       "type": "shelfs-nav",
@@ -151,6 +152,9 @@
           "img": "/img/uploads/anyconv.com__teste-790x1040-790-x-1024-px-.webp"
         }
       ]
+    },
+    {
+      "type": "banners-triple"
     }
   ]
 }
