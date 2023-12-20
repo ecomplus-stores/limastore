@@ -157,8 +157,9 @@
       "shuffle": true,
       "limit": 24,
       "page": 4,
-      "sort": "sales",
-      "title": "MAIS VENDIDOS"
+      "sort": null,
+      "title": "MAIS VENDIDOS",
+      "collection_id": "62c8376feb859112167d5aba:categories:MAIS VENDIDOS:/mais-vendidos"
     }
   ]
 }
