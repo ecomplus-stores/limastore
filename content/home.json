@@ -84,7 +84,7 @@
       "limit": 24,
       "page": 4,
       "title": "MAIS VENDIDOS",
-      "sort": "sales"
+      "sort": "views"
     },
     {
       "type": "collection-shelf",
