@@ -152,6 +152,15 @@
           "mobile_img": "/img/uploads/feliz-ano-novo.webp"
         }
       ]
+    },
+    {
+      "type": "banners-grid",
+      "banners": [
+        {
+          "img": "/img/uploads/4150136d-c164-4297-9fde-4fb196816f3c___5b24f1cac95614df66fa4eb0ca4fe18f.webp",
+          "mobile_img": "/img/uploads/4150136d-c164-4297-9fde-4fb196816f3c___5b24f1cac95614df66fa4eb0ca4fe18f.webp"
+        }
+      ]
     }
   ]
 }
