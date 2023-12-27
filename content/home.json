@@ -7,10 +7,10 @@
       "autoplay": 9000,
       "slides": [
         {
-          "start": "2023-12-27T21:05:20.386Z",
-          "end": "",
-          "img": "/img/uploads/feliz-ano-novo-celular-1920-x-750-px-.webp",
-          "mobile_img": "/img/uploads/feliz-ano-novo-celular.webp"
+          "start": "2023-12-19T01:41:20.811Z",
+          "end": "2023-12-26T03:00:00.000Z",
+          "img": "/img/uploads/promocao-natal-pc.webp",
+          "mobile_img": "/img/uploads/promocao-natal-celular.webp"
         },
         {
           "start": "",
@@ -80,11 +80,11 @@
     {
       "type": "collection-shelf",
       "shuffle": true,
-      "collection_id": null,
-      "limit": "",
+      "collection_id": "62c8376feb859112167d5aba:categories:MAIS VENDIDOS:/mais-vendidos",
+      "limit": 24,
       "page": "",
       "title": "MAIS VENDIDOS ",
-      "sort": "sales"
+      "sort": "views"
     },
     {
       "type": "collection-shelf",
