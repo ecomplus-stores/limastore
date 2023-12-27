@@ -124,7 +124,8 @@
       "page": "",
       "collection_ids": [
         "62c83896eb859112167d5db5:categories:KITS:/kits/"
-      ]
+      ],
+      "sort": "views"
     },
     {
       "type": "shelfs-nav",
