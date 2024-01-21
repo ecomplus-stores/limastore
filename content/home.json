@@ -137,15 +137,6 @@
     {
       "type": "custom-html",
       "html": "<!-- Trustvox -->\n<script type=\"text/javascript\" src=\"//colt.trustvox.com.br/colt.min.js\"></script><script>var _trustvox_colt = _trustvox_colt || [];_trustvox_colt.push(['_storeId', '72470'], ['_limit', '9']);</script>\n<!-- /Trustvox -->\n<div id=\"_trustvox_colt\"></div>"
-    },
-    {
-      "type": "banners-triple",
-      "banners": [
-        {
-          "img": "/img/uploads/feliz-ano-novo-1920-x-750-px-.webp",
-          "mobile_img": "/img/uploads/feliz-ano-novo.webp"
-        }
-      ]
     }
   ]
 }
