@@ -100,6 +100,10 @@ body:not(.app) {
     
     .header {
         background: url(/img/uploads/fundo123.jpg) no-repeat;
+        background-size: cover !important;
+    }
+    .header__container {
+        max-width: 100% !important;
     }
     
     .horario{
