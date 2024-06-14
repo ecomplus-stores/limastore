@@ -7,13 +7,8 @@
        "type": 301
      },
      {
-      "source": "/pulseiras-banhada-a-ouro",
-      "destination": "/pulseiras-masculinas",
-      "type": 301
-     },
-     {
      "source": "/pulseiras-de-aco-masculinas",
-     "destination": "/pulseiras-masculinas",
+     "destination": "/pulseiras-masculinas/",
      "type": 301
      },
       {
