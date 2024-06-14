@@ -2,6 +2,21 @@
   "hosting": {
     "redirects": [
       {
+       "source": "/pagina/como-saber-a-medida-do-pulso",
+       "destination": "/",
+       "type": 301
+     },
+     {
+      "source": "/pulseiras-banhada-a-ouro",
+      "destination": "/pulseiras-masculinas",
+      "type": 301
+     },
+     {
+     "source": "/pulseiras-de-aco-masculinas",
+     "destination": "/pulseiras-masculinas",
+     "type": 301
+     },
+      {
         "source": "/sitemap",
         "destination": "/sitemap.xml",
         "type": 301
