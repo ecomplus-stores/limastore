@@ -43,8 +43,8 @@
     },
     {
       "type": "responsive-banner",
-      "img": "/img/uploads/tarja-1.jpg",
-      "mobile_img": "/img/uploads/tarja-mobile.webp"
+      "img": "/img/uploads/tarja-versao-pc-1.webp",
+      "mobile_img": "/img/uploads/tarja-versao-mobile-1.webp"
     },
     {
       "type": "banners-grid",
