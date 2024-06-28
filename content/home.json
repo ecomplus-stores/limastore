@@ -47,13 +47,8 @@
       "mobile_img": "/img/uploads/tarja-versao-mobile-1.webp"
     },
     {
-      "type": "banners-grid",
-      "banners": [
-        {
-          "img": "/img/uploads/bne-tarja-pulseiras-magneticas.webp",
-          "link": "/pulseira-magnetica-masculina/"
-        }
-      ]
+      "type": "responsive-banner",
+      "img": "/img/uploads/bne-tarja-pulseiras-magneticas.webp"
     },
     {
       "type": "banners-triple",
