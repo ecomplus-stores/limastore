@@ -6,6 +6,11 @@
        "destination": "/",
        "type": 301
      },
+    {
+       "regex": "/pulseiras-banhada-a-ouro$",
+       "destination": "/pulseiras-banhada-a-ouro/",
+       "type": 301
+     },
      {
        "source": "/pulseiras-de-aco-masculinas",
        "destination": "/pulseiras-masculinas/",
@@ -97,7 +102,7 @@
         "type": 301
       },
       {
-        "regex": "/busca*",
+        "source": "/busca*",
         "destination": "/search",
         "type": 301
       }
