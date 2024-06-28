@@ -11,6 +11,11 @@
      "destination": "/pulseiras-masculinas/",
      "type": 301
      },
+      {
+     "source": "/pulseiras-banhada-a-ouro",
+     "destination": "/pulseiras-banhada-a-ouro/",
+     "type": 301
+     },
      {
         "source": "/sitemap",
         "destination": "/sitemap.xml",
