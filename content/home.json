@@ -37,6 +37,12 @@
           "link": "/colar-de-casal/",
           "alt": "acessorios casais",
           "mobile_img": "/img/uploads/banner-colar-casal-limastore-2.webp"
+        },
+        {
+          "start": "",
+          "end": "",
+          "img": "/img/uploads/blackfriday.webp",
+          "mobile_img": "/img/uploads/blackfridaymobile.webp"
         }
       ],
       "full_width": true
