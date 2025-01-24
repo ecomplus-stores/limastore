@@ -1,4 +1,16 @@
 {
+  "meta_tags": [
+    {
+      "page": "/admin/index",
+      "name": "robots",
+      "content": "noindex, nofollow"
+    },
+    {
+      "page": "/admin",
+      "name": "robots",
+      "content": "noindex, nofollow"
+    }
+  ],
   "marketing_stripe": {
     "text": "Todo site até 6X s/ juros | Frete Grátis a partir de R$149,00 ",
     "link": "",
