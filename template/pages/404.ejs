@@ -2,20 +2,14 @@
 <html lang="<%= _.lang.replace('_', '-') %>" dir="ltr">
 
 <head>
-  <%- await include('@/head').catch(err => {
-    console.error('Erro ao incluir o head:', err);
-  }) %>
+  <%- await include('@/head') %>
 </head>
 
 <body id="page-404">
-  <%- await include('@/layout/menu').catch(err => {
-    console.error('Erro ao incluir o menu:', err);
-  }) %>
+  <%- await include('@/layout/menu') %>
 
   <main role="main" id="main">
-    <%- await include('@/layout/header').catch(err => {
-      console.error('Erro ao incluir o header:', err);
-    }) %>
+    <%- await include('@/layout/header') %>
 
     <div class="container py-5">
       <article id="fallback-404">
@@ -25,17 +19,11 @@
       </article>
     </div>
 
-    <%- await include('@/layout/footer').catch(err => {
-      console.error('Erro ao incluir o footer:', err);
-    }) %>
+    <%- await include('@/layout/footer') %>
   </main>
 
-  <%- await include('@/json').catch(err => {
-    console.error('Erro ao incluir o json:', err);
-  }) %>
-  <%- await include('@/scripts').catch(err => {
-    console.error('Erro ao incluir os scripts:', err);
-  }) %>
+  <%- await include('@/json') %>
+  <%- await include('@/scripts') %>
 </body>
 
 </html>
