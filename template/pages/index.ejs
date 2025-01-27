@@ -1,1 +1,3 @@
-<%- await include('@/view') %>
+<%- await include('@/view').catch(err => {
+  console.error('Erro ao incluir o view:', err);
+}) %>
