@@ -14,6 +14,7 @@ const maintenance = _.cms('maintenance') || {}
   <% } else { %>
     <head>
       <%- await include('@/head') %>
+      <meta name="robots" content="noindex, nofollow">
     </head>
   
     <body class="maintenance">
