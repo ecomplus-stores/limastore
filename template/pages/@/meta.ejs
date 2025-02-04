@@ -45,7 +45,11 @@ if (pathname) {
   const { domain } = _.settings
   if (domain) {
     // canonical url
-    url = `https://${domain}${pathname}`
+    if (pathname === "/app/index") {
+      url = `https://${domain}/app`
+    } else {
+      url = `https://${domain}${pathname}`
+    }
     // content for og metatags
     social = _.cms('social')
     ogLocale = _.lang.length === 2 ? _.lang : _.lang.substr(0, 3) + _.lang.slice(3).toUpperCase()
