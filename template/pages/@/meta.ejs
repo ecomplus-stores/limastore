@@ -47,8 +47,6 @@ if (pathname) {
     // Corrige canonical para "/app" e "/admin" removendo "/index" quando necessário
     if (pathname === "/app/index" || pathname === "/app/") {
       url = `https://${domain}/app`
-    } else if (pathname === "/admin/index") {
-      url = `https://${domain}/admin`
     } else {
       url = `https://${domain}${pathname}`
     }
