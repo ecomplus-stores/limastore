@@ -44,7 +44,7 @@ if (pathname) {
   }
   const { domain } = _.settings
   if (domain) {
-    // Corrige canonical para "/app" e "/admin" removendo "/index" quando necessário
+    // Corrige canonical para "/app"  "/index" quando necessário
     if (pathname === "/app/index" || pathname === "/app/") {
       url = `https://${domain}/app`
     } else {
