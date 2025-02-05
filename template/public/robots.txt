@@ -9,6 +9,8 @@ Allow:
 User-agent: Adsbot-Google
 Allow:
 Allow: /
+Disallow: /voce-tambem-pode-gostar
+Disallow: /search
 Disallow: /app/$
 Disallow: /app/index$
 Disallow: /app/index.html$
