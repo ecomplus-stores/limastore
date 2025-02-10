@@ -13,8 +13,4 @@ if (parent) {
 }
 %>
 
-<%
-console.log('Parâmetros disponíveis:', JSON.stringify(_.query));
-%>
-<p>Parâmetros disponíveis: <%= JSON.stringify(_.route.query) %></p>
 <%- await include('@/view') %>
