@@ -46,9 +46,11 @@ if (pathname) {
   if (domain) {
     // Corrige canonical para "/app"  "/index" quando necessário
     if (pathname === "/app/index" || pathname === "/app/") {
-      url = `https://${domain}/app`
+      url = `https://${domain}/app`;
+    } else if (pathname === "/admin/index" || pathname === "/admin/") {
+      url = `https://${domain}/admin-dashboard`; // Defina o destino correto para "/admin"
     } else {
-      url = `https://${domain}${pathname}`
+      url = `https://${domain}${pathname}`;
     }
     // content for og metatags
     social = _.cms('social')
