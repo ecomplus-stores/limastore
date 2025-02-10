@@ -17,4 +17,5 @@ if (parent) {
 console.log('Parâmetros disponíveis:', JSON.stringify(_.query));
 %>
 <p>Parâmetros disponíveis: <%= JSON.stringify(_.route.query) %></p>
+<p>URL atual: <%= pathname %></p>
 <%- await include('@/view') %>
