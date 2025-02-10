@@ -13,4 +13,8 @@ if (parent) {
 }
 %>
 
+<%
+console.log('Parâmetros disponíveis:', JSON.stringify(_.query));
+%>
+
 <%- await include('@/view') %>
