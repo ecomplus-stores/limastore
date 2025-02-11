@@ -46,9 +46,9 @@ if (pathname) {
   if (domain) {
     // Corrige canonical para "/app"  "/index" quando necessário
     if (pathname === "/app/index" || pathname === "/app/") {
-      url = `https://${domain}/app`;
+      url = null; // Evita gerar canonical para essas páginas
     } else if (pathname === "/admin/index" || pathname === "/admin/") {
-      url = `https://${domain}/admin`; // Defina o destino correto para "/admin"
+      url = null; // Evita gerar canonical para essas páginas
     } else {
       url = `https://${domain}${pathname}`;
     }
